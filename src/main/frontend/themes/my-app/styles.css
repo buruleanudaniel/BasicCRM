@@ -1,0 +1,41 @@
+@media all and (max-width: 1100px) {
+    .list-view.editing .toolbar,
+    .list-view.editing .contact-grid {
+        display: none;
+    }
+}
+
+a[highlight] {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.no-underline {
+    text-decoration: none !important;
+}
+
+.home-view h1{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.home-view h2{
+    text-align: left;
+    margin-top: 0;
+}
+
+/* styles.css */
+.calendar-grid {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.calendar-grid .v-grid-cell {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.calendar-grid .v-grid-cell:hover {
+    background-color: #f0f0f0;
+}
